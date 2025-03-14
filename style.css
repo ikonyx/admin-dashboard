@@ -10,3 +10,7 @@ img {
     object-fit: cover;
     overflow-clip-margin: unset;
 }
+
+li {
+    list-style-type: none;
+}
