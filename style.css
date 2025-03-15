@@ -113,7 +113,7 @@ button {
 
 
 .sidebar {
-    grid-row-start: 1;
+    grid-row: 1 / span 4;
     height: 100vh;
     color: azure;
     background-color: rgb(124, 93, 236);
@@ -166,3 +166,11 @@ li {
     gap: 0.8rem;
     cursor: pointer;
 }
+
+.main-content {
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-template-columns: 2fr 1fr;
+}
+
