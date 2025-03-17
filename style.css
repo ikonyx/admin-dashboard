@@ -50,15 +50,16 @@ svg {
 .user-profile,
 .buttons,
 .search-bar,
-.user-info  {
+.user-info,
+.user  {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
-    
 }
 
 .search-bar,
-.user-info {
+.user-info,
+.user {
     justify-self: start;
     gap: 1.3rem;
 }
@@ -141,11 +142,11 @@ button {
 .logo > svg {
     height: 50px;
     width: 50px;
-    fill: aliceblue;
+    fill: white;
 }
 
 li > svg {
-    fill: aliceblue;
+    fill: white;
     height: 25px;
     width: 25px;
 }
@@ -230,12 +231,14 @@ h4 {
     fill:rgb(124, 93, 236);
 }
 
-.announcements {
+.announcements,
+.trending {
     padding: 1.3rem;
     margin-right: 1.3rem;
 }
 
-.announcements-wrapper {
+.announcements-wrapper,
+.trending-users {
     border-radius: 10px;
     padding: 1rem 2.2rem 1rem;
     box-shadow: 0 5px 15px 0 rgba(0,0,0, 0.2);
@@ -265,5 +268,21 @@ h4 {
     margin-top: 0.2rem;
 }
 
+.trending-user-info > p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+
+.user {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.user-status  {
+    padding-top: 0.4rem;
+    color: rgb(92, 92, 92);
+}
 
 
