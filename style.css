@@ -62,7 +62,7 @@ svg {
 .search-bar,
 .user-info,
 .user {
-    justify-self: start;
+    justify-content: start;
     gap: 1.3rem;
 }
 
