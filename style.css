@@ -120,15 +120,17 @@ button {
     border: none;
     border-radius: 20px;
     background-color: rgb(124, 93, 236);
+    border: 2px solid rgb(124, 93, 236);
     color: white;
-    padding: 0.7rem 1.9rem;
+    padding: 0.6rem 1.8rem;
     font-size: 1rem;
     font-weight: 900;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: rgb(134, 101, 252);
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 93, 236);
 }
 
 
@@ -162,8 +164,8 @@ li > svg {
 
 ul {
     margin-top: 1.8rem;
-    padding-left: 1.6rem;
     margin-bottom: 3.4rem;
+    padding-left: 0;
 }
 
 li {
@@ -172,11 +174,18 @@ li {
     justify-content: start;
     align-self: center;
     list-style-type: none;
-    margin-bottom: 1.3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.6rem;
     font-size: 1.4rem;
     font-weight: 900;
     gap: 1.3rem;
     cursor: pointer;
+}
+
+li:hover {
+    background-color: rgb(153, 125, 255);
+    font-size: 1.42rem;
 }
 
 .main-content {
